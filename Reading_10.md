@@ -56,4 +56,10 @@ let’s now dequeue a value from our queue:
 q1.pop()  
 => 6  
 q1  
-=> deque([1, 2, 3, 4, 5])  
+=> deque([1, 2, 3, 4, 5]) 
+
+# Sources 
+
+https://medium.com/swlh/stacks-and-queues-f281aa5462cf
+
+https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/stacks_and_queues.html
