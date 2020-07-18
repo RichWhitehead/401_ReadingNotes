@@ -46,7 +46,7 @@ Use the setter methods of a Line2D instance. plot returns a list of Line2D objec
 Use the `setp()` command. The example below uses a MATLAB-style command to set multiple properties on a list of lines. setp works transparently with a list of objects or a single object. You can either use python keyword arguments or MATLAB-style string/value pairs:
 
 `lines = plt.plot(x1, y1, x2, y2)`
-# use keyword args
+use keyword args
 `plt.setp(lines, color='r', linewidth=2.0)`
-# or MATLAB style string value pairs
+or MATLAB style string value pairs
 `plt.setp(lines, 'color', 'r', 'linewidth', 2.0)`
